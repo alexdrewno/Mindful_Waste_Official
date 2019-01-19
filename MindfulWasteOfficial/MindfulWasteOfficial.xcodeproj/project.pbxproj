@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D2D65FA2275A7DAF7811C28 /* Pods_MindfulWasteOfficialTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49E472B42DC06CC70FEE0BC /* Pods_MindfulWasteOfficialTests.framework */; };
 		95921C6B2155F88900978330 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95921C6A2155F88900978330 /* AppDelegate.swift */; };
 		95921C6D2155F88900978330 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95921C6C2155F88900978330 /* ViewController.swift */; };
 		95921C702155F88900978330 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95921C6E2155F88900978330 /* Main.storyboard */; };
@@ -14,6 +15,9 @@
 		95921C752155F88B00978330 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95921C732155F88B00978330 /* LaunchScreen.storyboard */; };
 		95921C802155F88B00978330 /* MindfulWasteOfficialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95921C7F2155F88B00978330 /* MindfulWasteOfficialTests.swift */; };
 		95921C8B2155F88B00978330 /* MindfulWasteOfficialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95921C8A2155F88B00978330 /* MindfulWasteOfficialUITests.swift */; };
+		95F97E4121F0F66600861F55 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95F97E4021F0F66600861F55 /* GoogleService-Info.plist */; };
+		9B0FFE8032E831746D2B6D1C /* Pods_MindfulWasteOfficialUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4831B2E647B692B56B318D7 /* Pods_MindfulWasteOfficialUITests.framework */; };
+		D63DEB5A4B9A35BE2CBD3749 /* Pods_MindfulWasteOfficial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 687143EA1468C46A01BBF885 /* Pods_MindfulWasteOfficial.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		182672F403ABFB0B6025A359 /* Pods-MindfulWasteOfficial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindfulWasteOfficial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MindfulWasteOfficial/Pods-MindfulWasteOfficial.debug.xcconfig"; sourceTree = "<group>"; };
+		1F238026947CAE408510F37B /* Pods-MindfulWasteOfficialUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindfulWasteOfficialUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MindfulWasteOfficialUITests/Pods-MindfulWasteOfficialUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2485717E7182226A95A9959A /* Pods-MindfulWasteOfficialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindfulWasteOfficialTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MindfulWasteOfficialTests/Pods-MindfulWasteOfficialTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4577BE6A7AE9919E8C87CD83 /* Pods-MindfulWasteOfficial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindfulWasteOfficial.release.xcconfig"; path = "Pods/Target Support Files/Pods-MindfulWasteOfficial/Pods-MindfulWasteOfficial.release.xcconfig"; sourceTree = "<group>"; };
+		65F9DA0AE5D17117DBD80CA4 /* Pods-MindfulWasteOfficialTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindfulWasteOfficialTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MindfulWasteOfficialTests/Pods-MindfulWasteOfficialTests.release.xcconfig"; sourceTree = "<group>"; };
+		687143EA1468C46A01BBF885 /* Pods_MindfulWasteOfficial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MindfulWasteOfficial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95921C672155F88900978330 /* MindfulWasteOfficial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindfulWasteOfficial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95921C6A2155F88900978330 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95921C6C2155F88900978330 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,10 @@
 		95921C862155F88B00978330 /* MindfulWasteOfficialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindfulWasteOfficialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95921C8A2155F88B00978330 /* MindfulWasteOfficialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindfulWasteOfficialUITests.swift; sourceTree = "<group>"; };
 		95921C8C2155F88B00978330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95F97E4021F0F66600861F55 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C4831B2E647B692B56B318D7 /* Pods_MindfulWasteOfficialUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MindfulWasteOfficialUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E49E472B42DC06CC70FEE0BC /* Pods_MindfulWasteOfficialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MindfulWasteOfficialTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC67F2F82499F4F519FB6899 /* Pods-MindfulWasteOfficialUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindfulWasteOfficialUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MindfulWasteOfficialUITests/Pods-MindfulWasteOfficialUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D63DEB5A4B9A35BE2CBD3749 /* Pods_MindfulWasteOfficial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D2D65FA2275A7DAF7811C28 /* Pods_MindfulWasteOfficialTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B0FFE8032E831746D2B6D1C /* Pods_MindfulWasteOfficialUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B5E9EF505BD5A9D5A0FE431 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				687143EA1468C46A01BBF885 /* Pods_MindfulWasteOfficial.framework */,
+				E49E472B42DC06CC70FEE0BC /* Pods_MindfulWasteOfficialTests.framework */,
+				C4831B2E647B692B56B318D7 /* Pods_MindfulWasteOfficialUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52B1BD1F77119B46394E2E99 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				182672F403ABFB0B6025A359 /* Pods-MindfulWasteOfficial.debug.xcconfig */,
+				4577BE6A7AE9919E8C87CD83 /* Pods-MindfulWasteOfficial.release.xcconfig */,
+				2485717E7182226A95A9959A /* Pods-MindfulWasteOfficialTests.debug.xcconfig */,
+				65F9DA0AE5D17117DBD80CA4 /* Pods-MindfulWasteOfficialTests.release.xcconfig */,
+				EC67F2F82499F4F519FB6899 /* Pods-MindfulWasteOfficialUITests.debug.xcconfig */,
+				1F238026947CAE408510F37B /* Pods-MindfulWasteOfficialUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		95921C5E2155F88900978330 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				95921C7E2155F88B00978330 /* MindfulWasteOfficialTests */,
 				95921C892155F88B00978330 /* MindfulWasteOfficialUITests */,
 				95921C682155F88900978330 /* Products */,
+				52B1BD1F77119B46394E2E99 /* Pods */,
+				2B5E9EF505BD5A9D5A0FE431 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +145,7 @@
 				95921C712155F88B00978330 /* Assets.xcassets */,
 				95921C732155F88B00978330 /* LaunchScreen.storyboard */,
 				95921C762155F88B00978330 /* Info.plist */,
+				95F97E4021F0F66600861F55 /* GoogleService-Info.plist */,
 			);
 			path = MindfulWasteOfficial;
 			sourceTree = "<group>";
@@ -132,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 95921C8F2155F88B00978330 /* Build configuration list for PBXNativeTarget "MindfulWasteOfficial" */;
 			buildPhases = (
+				5141068B4960167A4B1E50BB /* [CP] Check Pods Manifest.lock */,
 				95921C632155F88900978330 /* Sources */,
 				95921C642155F88900978330 /* Frameworks */,
 				95921C652155F88900978330 /* Resources */,
+				5E0F4A3F9B7DA6436A7AB313 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 95921C922155F88B00978330 /* Build configuration list for PBXNativeTarget "MindfulWasteOfficialTests" */;
 			buildPhases = (
+				0273E3391D868B46EFF5E88D /* [CP] Check Pods Manifest.lock */,
 				95921C772155F88B00978330 /* Sources */,
 				95921C782155F88B00978330 /* Frameworks */,
 				95921C792155F88B00978330 /* Resources */,
@@ -167,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 95921C952155F88B00978330 /* Build configuration list for PBXNativeTarget "MindfulWasteOfficialUITests" */;
 			buildPhases = (
+				E46F21EC69297615598F31A2 /* [CP] Check Pods Manifest.lock */,
 				95921C822155F88B00978330 /* Sources */,
 				95921C832155F88B00978330 /* Frameworks */,
 				95921C842155F88B00978330 /* Resources */,
@@ -229,6 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95F97E4121F0F66600861F55 /* GoogleService-Info.plist in Resources */,
 				95921C752155F88B00978330 /* LaunchScreen.storyboard in Resources */,
 				95921C722155F88B00978330 /* Assets.xcassets in Resources */,
 				95921C702155F88900978330 /* Main.storyboard in Resources */,
@@ -250,6 +298,85 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0273E3391D868B46EFF5E88D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MindfulWasteOfficialTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5141068B4960167A4B1E50BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MindfulWasteOfficial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E0F4A3F9B7DA6436A7AB313 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MindfulWasteOfficial/Pods-MindfulWasteOfficial-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MindfulWasteOfficial/Pods-MindfulWasteOfficial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E46F21EC69297615598F31A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MindfulWasteOfficialUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		95921C632155F88900978330 /* Sources */ = {
@@ -428,6 +555,7 @@
 		};
 		95921C902155F88B00978330 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 182672F403ABFB0B6025A359 /* Pods-MindfulWasteOfficial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +574,7 @@
 		};
 		95921C912155F88B00978330 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4577BE6A7AE9919E8C87CD83 /* Pods-MindfulWasteOfficial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +593,7 @@
 		};
 		95921C932155F88B00978330 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2485717E7182226A95A9959A /* Pods-MindfulWasteOfficialTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +615,7 @@
 		};
 		95921C942155F88B00978330 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65F9DA0AE5D17117DBD80CA4 /* Pods-MindfulWasteOfficialTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +637,7 @@
 		};
 		95921C962155F88B00978330 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC67F2F82499F4F519FB6899 /* Pods-MindfulWasteOfficialUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +658,7 @@
 		};
 		95921C972155F88B00978330 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F238026947CAE408510F37B /* Pods-MindfulWasteOfficialUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
