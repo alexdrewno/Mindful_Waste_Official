@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		8D2D65FA2275A7DAF7811C28 /* Pods_MindfulWasteOfficialTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49E472B42DC06CC70FEE0BC /* Pods_MindfulWasteOfficialTests.framework */; };
+		950F054B230FCDC100B44470 /* Intro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 950F054A230FCDC100B44470 /* Intro.storyboard */; };
+		950F054D230FCF8200B44470 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950F054C230FCF8200B44470 /* Constants.swift */; };
+		950F0552230FD21800B44470 /* Hind and Open Sans in Resources */ = {isa = PBXBuildFile; fileRef = 950F0551230FD21800B44470 /* Hind and Open Sans */; };
 		95921C6B2155F88900978330 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95921C6A2155F88900978330 /* AppDelegate.swift */; };
-		95921C6D2155F88900978330 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95921C6C2155F88900978330 /* ViewController.swift */; };
-		95921C702155F88900978330 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95921C6E2155F88900978330 /* Main.storyboard */; };
 		95921C722155F88B00978330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95921C712155F88B00978330 /* Assets.xcassets */; };
 		95921C752155F88B00978330 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95921C732155F88B00978330 /* LaunchScreen.storyboard */; };
 		95921C802155F88B00978330 /* MindfulWasteOfficialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95921C7F2155F88B00978330 /* MindfulWasteOfficialTests.swift */; };
 		95921C8B2155F88B00978330 /* MindfulWasteOfficialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95921C8A2155F88B00978330 /* MindfulWasteOfficialUITests.swift */; };
-		95F97E4121F0F66600861F55 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95F97E4021F0F66600861F55 /* GoogleService-Info.plist */; };
 		9B0FFE8032E831746D2B6D1C /* Pods_MindfulWasteOfficialUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4831B2E647B692B56B318D7 /* Pods_MindfulWasteOfficialUITests.framework */; };
 		D63DEB5A4B9A35BE2CBD3749 /* Pods_MindfulWasteOfficial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 687143EA1468C46A01BBF885 /* Pods_MindfulWasteOfficial.framework */; };
 /* End PBXBuildFile section */
@@ -44,10 +44,11 @@
 		4577BE6A7AE9919E8C87CD83 /* Pods-MindfulWasteOfficial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindfulWasteOfficial.release.xcconfig"; path = "Pods/Target Support Files/Pods-MindfulWasteOfficial/Pods-MindfulWasteOfficial.release.xcconfig"; sourceTree = "<group>"; };
 		65F9DA0AE5D17117DBD80CA4 /* Pods-MindfulWasteOfficialTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindfulWasteOfficialTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MindfulWasteOfficialTests/Pods-MindfulWasteOfficialTests.release.xcconfig"; sourceTree = "<group>"; };
 		687143EA1468C46A01BBF885 /* Pods_MindfulWasteOfficial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MindfulWasteOfficial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		950F054A230FCDC100B44470 /* Intro.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Intro.storyboard; sourceTree = "<group>"; };
+		950F054C230FCF8200B44470 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		950F0551230FD21800B44470 /* Hind and Open Sans */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Hind and Open Sans"; sourceTree = "<group>"; };
 		95921C672155F88900978330 /* MindfulWasteOfficial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindfulWasteOfficial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95921C6A2155F88900978330 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		95921C6C2155F88900978330 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		95921C6F2155F88900978330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95921C712155F88B00978330 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95921C742155F88B00978330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95921C762155F88B00978330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,7 +58,6 @@
 		95921C862155F88B00978330 /* MindfulWasteOfficialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindfulWasteOfficialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95921C8A2155F88B00978330 /* MindfulWasteOfficialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindfulWasteOfficialUITests.swift; sourceTree = "<group>"; };
 		95921C8C2155F88B00978330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		95F97E4021F0F66600861F55 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C4831B2E647B692B56B318D7 /* Pods_MindfulWasteOfficialUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MindfulWasteOfficialUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E49E472B42DC06CC70FEE0BC /* Pods_MindfulWasteOfficialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MindfulWasteOfficialTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC67F2F82499F4F519FB6899 /* Pods-MindfulWasteOfficialUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindfulWasteOfficialUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MindfulWasteOfficialUITests/Pods-MindfulWasteOfficialUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -114,6 +114,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		950F054E230FD11F00B44470 /* Custom Font */ = {
+			isa = PBXGroup;
+			children = (
+				950F0551230FD21800B44470 /* Hind and Open Sans */,
+			);
+			path = "Custom Font";
+			sourceTree = "<group>";
+		};
 		95921C5E2155F88900978330 = {
 			isa = PBXGroup;
 			children = (
@@ -140,12 +148,12 @@
 			isa = PBXGroup;
 			children = (
 				95921C6A2155F88900978330 /* AppDelegate.swift */,
-				95921C6C2155F88900978330 /* ViewController.swift */,
-				95921C6E2155F88900978330 /* Main.storyboard */,
+				950F054A230FCDC100B44470 /* Intro.storyboard */,
 				95921C712155F88B00978330 /* Assets.xcassets */,
 				95921C732155F88B00978330 /* LaunchScreen.storyboard */,
 				95921C762155F88B00978330 /* Info.plist */,
-				95F97E4021F0F66600861F55 /* GoogleService-Info.plist */,
+				950F054C230FCF8200B44470 /* Constants.swift */,
+				950F054E230FD11F00B44470 /* Custom Font */,
 			);
 			path = MindfulWasteOfficial;
 			sourceTree = "<group>";
@@ -276,10 +284,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95F97E4121F0F66600861F55 /* GoogleService-Info.plist in Resources */,
 				95921C752155F88B00978330 /* LaunchScreen.storyboard in Resources */,
 				95921C722155F88B00978330 /* Assets.xcassets in Resources */,
-				95921C702155F88900978330 /* Main.storyboard in Resources */,
+				950F054B230FCDC100B44470 /* Intro.storyboard in Resources */,
+				950F0552230FD21800B44470 /* Hind and Open Sans in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,8 +391,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95921C6D2155F88900978330 /* ViewController.swift in Sources */,
 				95921C6B2155F88900978330 /* AppDelegate.swift in Sources */,
+				950F054D230FCF8200B44470 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,14 +428,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		95921C6E2155F88900978330 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				95921C6F2155F88900978330 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		95921C732155F88B00978330 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
