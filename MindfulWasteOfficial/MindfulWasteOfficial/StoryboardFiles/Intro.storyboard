@@ -18,10 +18,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--Intro View Controller-->
         <scene sceneID="aDw-vQ-iKK">
             <objects>
-                <viewController id="q9o-hq-Q7J" sceneMemberID="viewController">
+                <viewController id="q9o-hq-Q7J" customClass="IntroViewController" customModule="MindfulWasteOfficial" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BLu-7m-9os">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -34,21 +34,21 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qiM-AW-kSK">
-                                <rect key="frame" x="0.0" y="206.5" width="414" height="1"/>
+                                <rect key="frame" x="0.0" y="206" width="414" height="1"/>
                                 <color key="backgroundColor" red="0.95294117649999999" green="0.50588235290000005" blue="0.50588235290000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="bvE-x6-CaG"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nOD-tw-Oac">
-                                <rect key="frame" x="0.0" y="261.5" width="414" height="1"/>
+                                <rect key="frame" x="0.0" y="262" width="414" height="1"/>
                                 <color key="backgroundColor" red="0.95294117649999999" green="0.50588235290000005" blue="0.50588235290000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="Yyj-ez-ANg"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qLc-Za-4Ku">
-                                <rect key="frame" x="0.0" y="317.5" width="414" height="1"/>
+                                <rect key="frame" x="0.0" y="318" width="414" height="1"/>
                                 <color key="backgroundColor" red="0.95294117649999999" green="0.50588235290000005" blue="0.50588235290000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="lk4-wV-wHt"/>
@@ -61,7 +61,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yLT-TS-Lhr">
-                                <rect key="frame" x="0.0" y="151.5" width="414" height="55"/>
+                                <rect key="frame" x="0.0" y="151" width="414" height="55"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="Hyn-7Y-6k8"/>
                                 </constraints>
@@ -69,9 +69,12 @@
                                 <state key="normal" title="An Admin">
                                     <color key="titleColor" red="0.95294117649999999" green="0.50588235290000005" blue="0.50588235290000005" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="P2g-u4-bot" kind="show" id="7Z2-eb-xf9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pVS-ry-NGb">
-                                <rect key="frame" x="0.0" y="207.5" width="414" height="55"/>
+                                <rect key="frame" x="0.0" y="207" width="414" height="55"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="iad-PB-eSV"/>
                                 </constraints>
@@ -79,9 +82,12 @@
                                 <state key="normal" title="A Volunteer">
                                     <color key="titleColor" red="0.95294117649999999" green="0.50588235290000005" blue="0.50588235290000005" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Sc0-Qd-5mN" kind="show" id="X6o-J2-JDi"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AGk-jH-62G">
-                                <rect key="frame" x="0.0" y="262.5" width="414" height="55"/>
+                                <rect key="frame" x="0.0" y="263" width="414" height="55"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="518-CH-0IX"/>
                                 </constraints>
@@ -120,15 +126,16 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="EQI-FQ-MUm"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Qrk-sF-Wtq"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qB0-Ug-0fA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-665.21739130434787" y="73.660714285714278"/>
+            <point key="canvasLocation" x="244.92753623188409" y="73.660714285714278"/>
         </scene>
-        <!--View Controller-->
+        <!--Admin Login View Controller-->
         <scene sceneID="lxk-AQ-6hm">
             <objects>
-                <viewController id="P2g-u4-bot" sceneMemberID="viewController">
+                <viewController id="P2g-u4-bot" customClass="AdminLoginViewController" customModule="MindfulWasteOfficial" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sjw-pA-jgS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -138,7 +145,22 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="URP-RX-Aze" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="196" y="-319"/>
+            <point key="canvasLocation" x="1157.9710144927537" y="-335.49107142857139"/>
+        </scene>
+        <!--Volunteer Login View Controller-->
+        <scene sceneID="jQY-eY-zcP">
+            <objects>
+                <viewController id="Sc0-Qd-5mN" customClass="VolunteerLoginViewController" customModule="MindfulWasteOfficial" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Bf1-Fx-m0a">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.98823529409999999" green="0.89019607840000003" blue="0.54117647059999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="fQi-GU-VCq"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I9P-Pd-jh6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1157.9710144927537" y="337.5"/>
         </scene>
     </scenes>
 </document>
