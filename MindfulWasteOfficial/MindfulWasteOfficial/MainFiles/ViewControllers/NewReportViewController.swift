@@ -21,7 +21,7 @@ class NewReportViewController: MindfulWasteBaseViewController {
 }
 
 
-//MARK: - Actions
+//MARK: - 
 extension NewReportViewController {
     
 }
