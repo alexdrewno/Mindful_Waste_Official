@@ -9,7 +9,6 @@ target 'MindfulWasteOfficial' do
 	pod 'Firebase/Core'
 	pod 'FirebaseDatabase'
 	pod 'FoldingCell'
-
   target 'MindfulWasteOfficialTests' do
     inherit! :search_paths
     # Pods for testing
