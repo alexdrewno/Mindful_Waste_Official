@@ -16,6 +16,9 @@
         <array key="OpenSans-Semibold.ttf">
             <string>OpenSans-Semibold</string>
         </array>
+        <array key="SFUIText.ttf">
+            <string>.SFUIText</string>
+        </array>
     </customFonts>
     <scenes>
         <!--Home View Controller-->
@@ -26,9 +29,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appleTreeBackground" translatesAutoresizingMaskIntoConstraints="NO" id="Ier-0r-Iw1">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Volunteer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RYZ-GF-wbm">
                                 <rect key="frame" x="33" y="102" width="348" height="36.5"/>
                                 <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="31"/>
@@ -39,6 +39,9 @@
                                 <rect key="frame" x="157" y="246" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="whilePlusButton"/>
+                                <connections>
+                                    <segue destination="mVQ-1u-KlM" kind="show" id="Lvh-NZ-EKr"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="New Report" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bQS-j1-kNM">
                                 <rect key="frame" x="157" y="354" width="100" height="21"/>
@@ -48,13 +51,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.98823529409999999" green="0.89019607840000003" blue="0.54117647059999996" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="Ier-0r-Iw1" secondAttribute="bottom" id="FyG-P7-ENm"/>
-                            <constraint firstItem="Ier-0r-Iw1" firstAttribute="trailing" secondItem="mN5-M9-FeL" secondAttribute="trailing" id="G21-i5-Mxe"/>
                             <constraint firstItem="RYZ-GF-wbm" firstAttribute="top" secondItem="mN5-M9-FeL" secondAttribute="top" constant="58" id="M7v-5w-0bh"/>
-                            <constraint firstItem="Ier-0r-Iw1" firstAttribute="top" secondItem="DnD-re-e7d" secondAttribute="top" id="Mn0-NM-uZI"/>
-                            <constraint firstItem="Ier-0r-Iw1" firstAttribute="leading" secondItem="mN5-M9-FeL" secondAttribute="leading" id="Ohh-Eo-DtP"/>
                             <constraint firstItem="RYZ-GF-wbm" firstAttribute="leading" secondItem="mN5-M9-FeL" secondAttribute="leading" constant="33" id="rOB-YE-unB"/>
                             <constraint firstItem="mN5-M9-FeL" firstAttribute="trailing" secondItem="RYZ-GF-wbm" secondAttribute="trailing" constant="33" id="rjE-e0-H15"/>
                         </constraints>
@@ -63,11 +62,43 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lzM-G8-tYh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-152.17391304347828" y="69.642857142857139"/>
+            <point key="canvasLocation" x="-143" y="-281"/>
+        </scene>
+        <!--New Report View Controller-->
+        <scene sceneID="fGa-x8-5Oe">
+            <objects>
+                <viewController id="mVQ-1u-KlM" customClass="NewReportViewController" customModule="MindfulWasteOfficial" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="maq-Pb-LLh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3dp-dK-4vI">
+                                <rect key="frame" x="34" y="64" width="25" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="backButton"/>
+                                <connections>
+                                    <action selector="backToHome:" destination="mVQ-1u-KlM" eventType="touchUpInside" id="Zmw-gQ-zNR"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="New Report" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zNV-1q-duA">
+                                <rect key="frame" x="117" y="64" width="180" height="36.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name=".SFUIText" family=".SF UI Text" pointSize="24"/>
+                                <color key="textColor" red="0.95294117649999999" green="0.50588235290000005" blue="0.50588235290000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.98823529409999999" green="0.89019607840000003" blue="0.54117647059999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="iM6-um-gxA"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fbN-Xk-aRo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="626" y="-649"/>
         </scene>
     </scenes>
     <resources>
-        <image name="appleTreeBackground" width="426" height="640"/>
+        <image name="backButton" width="319" height="422"/>
         <image name="whilePlusButton" width="256" height="256"/>
     </resources>
 </document>

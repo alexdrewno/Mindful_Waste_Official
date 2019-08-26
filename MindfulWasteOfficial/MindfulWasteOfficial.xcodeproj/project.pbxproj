@@ -23,6 +23,7 @@
 		95921C752155F88B00978330 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95921C732155F88B00978330 /* LaunchScreen.storyboard */; };
 		95921C802155F88B00978330 /* MindfulWasteOfficialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95921C7F2155F88B00978330 /* MindfulWasteOfficialTests.swift */; };
 		95921C8B2155F88B00978330 /* MindfulWasteOfficialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95921C8A2155F88B00978330 /* MindfulWasteOfficialUITests.swift */; };
+		95F7162723148216006BBF84 /* NewReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F7162623148216006BBF84 /* NewReportViewController.swift */; };
 		9B0FFE8032E831746D2B6D1C /* Pods_MindfulWasteOfficialUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4831B2E647B692B56B318D7 /* Pods_MindfulWasteOfficialUITests.framework */; };
 		D63DEB5A4B9A35BE2CBD3749 /* Pods_MindfulWasteOfficial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 687143EA1468C46A01BBF885 /* Pods_MindfulWasteOfficial.framework */; };
 /* End PBXBuildFile section */
@@ -72,6 +73,7 @@
 		95921C862155F88B00978330 /* MindfulWasteOfficialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindfulWasteOfficialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95921C8A2155F88B00978330 /* MindfulWasteOfficialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindfulWasteOfficialUITests.swift; sourceTree = "<group>"; };
 		95921C8C2155F88B00978330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95F7162623148216006BBF84 /* NewReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReportViewController.swift; sourceTree = "<group>"; };
 		C4831B2E647B692B56B318D7 /* Pods_MindfulWasteOfficialUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MindfulWasteOfficialUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E49E472B42DC06CC70FEE0BC /* Pods_MindfulWasteOfficialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MindfulWasteOfficialTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC67F2F82499F4F519FB6899 /* Pods-MindfulWasteOfficialUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindfulWasteOfficialUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MindfulWasteOfficialUITests/Pods-MindfulWasteOfficialUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -149,7 +151,7 @@
 		950F055F2310E11800B44470 /* MainFiles */ = {
 			isa = PBXGroup;
 			children = (
-				950F05602310E1A000B44470 /* HomeViewController.swift */,
+				95F7162823148284006BBF84 /* ViewControllers */,
 			);
 			path = MainFiles;
 			sourceTree = "<group>";
@@ -227,6 +229,15 @@
 				95921C8C2155F88B00978330 /* Info.plist */,
 			);
 			path = MindfulWasteOfficialUITests;
+			sourceTree = "<group>";
+		};
+		95F7162823148284006BBF84 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				950F05602310E1A000B44470 /* HomeViewController.swift */,
+				95F7162623148216006BBF84 /* NewReportViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -449,6 +460,7 @@
 				950F055C2310D86A00B44470 /* VolunteerLoginViewController.swift in Sources */,
 				950F05552310D58400B44470 /* IntroViewController.swift in Sources */,
 				950F05672310E87B00B44470 /* MindfulWasteUser.swift in Sources */,
+				95F7162723148216006BBF84 /* NewReportViewController.swift in Sources */,
 				95921C6B2155F88900978330 /* AppDelegate.swift in Sources */,
 				950F05652310E7E300B44470 /* LoginController.swift in Sources */,
 				950F05612310E1A000B44470 /* HomeViewController.swift in Sources */,
