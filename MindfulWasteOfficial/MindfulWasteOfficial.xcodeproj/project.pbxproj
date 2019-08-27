@@ -18,6 +18,7 @@
 		950F05612310E1A000B44470 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950F05602310E1A000B44470 /* HomeViewController.swift */; };
 		950F05652310E7E300B44470 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950F05642310E7E300B44470 /* LoginController.swift */; };
 		950F05672310E87B00B44470 /* MindfulWasteUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950F05662310E87B00B44470 /* MindfulWasteUser.swift */; };
+		955310592315A66D006E9B3D /* ViewReportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955310582315A66D006E9B3D /* ViewReportsViewController.swift */; };
 		95921C6B2155F88900978330 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95921C6A2155F88900978330 /* AppDelegate.swift */; };
 		95921C722155F88B00978330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95921C712155F88B00978330 /* Assets.xcassets */; };
 		95921C752155F88B00978330 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95921C732155F88B00978330 /* LaunchScreen.storyboard */; };
@@ -64,6 +65,7 @@
 		950F05602310E1A000B44470 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		950F05642310E7E300B44470 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		950F05662310E87B00B44470 /* MindfulWasteUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindfulWasteUser.swift; sourceTree = "<group>"; };
+		955310582315A66D006E9B3D /* ViewReportsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewReportsViewController.swift; sourceTree = "<group>"; };
 		95921C672155F88900978330 /* MindfulWasteOfficial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindfulWasteOfficial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95921C6A2155F88900978330 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95921C712155F88B00978330 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -241,6 +243,7 @@
 			children = (
 				950F05602310E1A000B44470 /* HomeViewController.swift */,
 				95F7162623148216006BBF84 /* NewReportViewController.swift */,
+				955310582315A66D006E9B3D /* ViewReportsViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -475,6 +478,7 @@
 				950F055E2310D88F00B44470 /* AdminLoginViewController.swift in Sources */,
 				950F05582310D69B00B44470 /* MindfulWasteBaseViewController.swift in Sources */,
 				950F055C2310D86A00B44470 /* VolunteerLoginViewController.swift in Sources */,
+				955310592315A66D006E9B3D /* ViewReportsViewController.swift in Sources */,
 				950F05552310D58400B44470 /* IntroViewController.swift in Sources */,
 				950F05672310E87B00B44470 /* MindfulWasteUser.swift in Sources */,
 				95F7162723148216006BBF84 /* NewReportViewController.swift in Sources */,

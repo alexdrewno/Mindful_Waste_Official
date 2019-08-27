@@ -29,52 +29,100 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Volunteer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RYZ-GF-wbm">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Volunteer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RYZ-GF-wbm">
                                 <rect key="frame" x="33" y="102" width="348" height="36.5"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="31"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="New Report" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bQS-j1-kNM">
-                                <rect key="frame" x="157" y="404" width="100" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Report" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bQS-j1-kNM">
+                                <rect key="frame" x="161.5" y="404" width="91" height="20"/>
                                 <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dyd-Hs-IDb">
-                                <rect key="frame" x="57" y="485" width="300" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dyd-Hs-IDb">
+                                <rect key="frame" x="94.5" y="489" width="225" height="32"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.46123180650684931" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="225" id="guJ-j0-RaR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <state key="normal" title="Completed Reports">
                                     <color key="titleColor" red="0.95294117649999999" green="0.50588235290000005" blue="0.50588235290000005" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ezJ-SQ-RXd">
-                                <rect key="frame" x="57" y="564" width="300" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.46123180650000001" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Completed Reports">
-                                    <color key="titleColor" red="0.95294117649999999" green="0.50588235290000005" blue="0.50588235290000005" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ox7-Mo-YMY">
-                                <rect key="frame" x="170" y="321" width="75" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ox7-Mo-YMY">
+                                <rect key="frame" x="169.5" y="321" width="75" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="JYX-bZ-CnZ"/>
+                                    <constraint firstAttribute="width" constant="75" id="Ujs-jz-OkA"/>
+                                </constraints>
                                 <state key="normal" image="whilePlusButton"/>
                                 <connections>
                                     <segue destination="mVQ-1u-KlM" kind="show" id="Lvh-NZ-EKr"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ezJ-SQ-RXd">
+                                <rect key="frame" x="94.5" y="568" width="225" height="32"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.46123180650000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="225" id="0Z0-Tg-mZc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="Edit Reports">
+                                    <color key="titleColor" red="0.95294117649999999" green="0.50588235290000005" blue="0.50588235290000005" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.98823529409999999" green="0.89019607840000003" blue="0.54117647059999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="ezJ-SQ-RXd" firstAttribute="width" secondItem="dyd-Hs-IDb" secondAttribute="width" id="54R-p5-V6t"/>
+                            <constraint firstItem="bQS-j1-kNM" firstAttribute="top" secondItem="Ox7-Mo-YMY" secondAttribute="bottom" constant="8" id="5vl-Gr-RCQ"/>
+                            <constraint firstItem="ezJ-SQ-RXd" firstAttribute="centerX" secondItem="DnD-re-e7d" secondAttribute="centerX" id="JTg-SX-eSF"/>
+                            <constraint firstItem="mN5-M9-FeL" firstAttribute="trailing" secondItem="RYZ-GF-wbm" secondAttribute="trailing" constant="33" id="NEo-wK-zCb"/>
+                            <constraint firstItem="RYZ-GF-wbm" firstAttribute="top" secondItem="mN5-M9-FeL" secondAttribute="top" constant="58" id="SwD-Sf-0aT"/>
+                            <constraint firstItem="bQS-j1-kNM" firstAttribute="centerX" secondItem="DnD-re-e7d" secondAttribute="centerX" id="VZF-Ma-vJP"/>
+                            <constraint firstItem="Ox7-Mo-YMY" firstAttribute="centerY" secondItem="DnD-re-e7d" secondAttribute="centerY" constant="-89.5" id="fdP-kt-oPd"/>
+                            <constraint firstItem="Ox7-Mo-YMY" firstAttribute="centerX" secondItem="DnD-re-e7d" secondAttribute="centerX" id="gxB-YT-p4Y"/>
+                            <constraint firstItem="dyd-Hs-IDb" firstAttribute="centerY" secondItem="DnD-re-e7d" secondAttribute="centerY" constant="57" id="h2v-4M-1HQ"/>
+                            <constraint firstItem="dyd-Hs-IDb" firstAttribute="centerX" secondItem="DnD-re-e7d" secondAttribute="centerX" id="kB5-Ir-dwt"/>
+                            <constraint firstItem="RYZ-GF-wbm" firstAttribute="leading" secondItem="mN5-M9-FeL" secondAttribute="leading" constant="33" id="lUE-Rg-sfG"/>
+                            <constraint firstItem="ezJ-SQ-RXd" firstAttribute="centerY" secondItem="DnD-re-e7d" secondAttribute="centerY" constant="136" id="nZ9-ZY-dCZ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="mN5-M9-FeL"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lzM-G8-tYh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-143.47826086956522" y="-281.25"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="utt-WL-YIJ">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eNw-bM-ftK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="Sfk-0d-ISN" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Eeg-6I-1Lz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="l2G-9E-Fva">
+                                <rect key="frame" x="0.0" y="828" width="414" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem systemItem="favorites" id="etR-sv-Fwh"/>
+                                    <tabBarItem title="Item" id="Cvx-RI-573"/>
+                                    <tabBarItem systemItem="more" id="P3n-fF-vO5"/>
+                                </items>
+                            </tabBar>
+                        </subviews>
+                        <color key="backgroundColor" red="0.98823529409999999" green="0.89019607840000003" blue="0.54117647059999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="wZw-vf-xw5"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="712" y="-15"/>
         </scene>
         <!--New Report View Controller-->
         <scene sceneID="fGa-x8-5Oe">
@@ -106,7 +154,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fbN-Xk-aRo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="626" y="-649"/>
+            <point key="canvasLocation" x="712" y="-702"/>
         </scene>
     </scenes>
     <resources>
