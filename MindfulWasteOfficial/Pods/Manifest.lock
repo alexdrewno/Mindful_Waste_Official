@@ -33,7 +33,6 @@ PODS:
     - FirebaseCore (~> 6.0)
     - GoogleUtilities/Environment (~> 6.0)
     - GoogleUtilities/UserDefaults (~> 6.0)
-  - FoldingCell (5.0.1)
   - GoogleAppMeasurement (6.1.1):
     - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
     - GoogleUtilities/MethodSwizzler (~> 6.0)
@@ -72,7 +71,6 @@ PODS:
 DEPENDENCIES:
   - Firebase/Core
   - FirebaseDatabase
-  - FoldingCell
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -84,7 +82,6 @@ SPEC REPOS:
     - FirebaseCoreDiagnosticsInterop
     - FirebaseDatabase
     - FirebaseInstanceID
-    - FoldingCell
     - GoogleAppMeasurement
     - GoogleDataTransport
     - GoogleDataTransportCCTSupport
@@ -101,7 +98,6 @@ SPEC CHECKSUMS:
   FirebaseCoreDiagnosticsInterop: 6829da2b8d1fc795ff1bd99df751d3788035d2cb
   FirebaseDatabase: 518cd94286de2ee999e19383a2a6ae04c81ce993
   FirebaseInstanceID: 8b42755db950682e7de0d167bc6fb26a57b244af
-  FoldingCell: 9197b915a415af9e52a857964066797af6a51c2b
   GoogleAppMeasurement: 86a82f0e1f20b8eedf8e20326530138fd71409de
   GoogleDataTransport: 91e682bd60a49d3f8f69f2e909a66efaed5a1e7a
   GoogleDataTransportCCTSupport: 6b545f7149111180763dc18c6f372c963de4a310
@@ -109,6 +105,6 @@ SPEC CHECKSUMS:
   leveldb-library: 55d93ee664b4007aac644a782d11da33fba316f7
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
 
-PODFILE CHECKSUM: cecc0aaaf208fe726f5f4bb7dd7c9f18b80949f0
+PODFILE CHECKSUM: c400ae7b3adf881bf16cd32f1ee9e34237c4242e
 
 COCOAPODS: 1.5.3

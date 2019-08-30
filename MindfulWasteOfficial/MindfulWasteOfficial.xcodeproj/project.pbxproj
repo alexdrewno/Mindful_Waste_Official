@@ -18,6 +18,7 @@
 		950F05612310E1A000B44470 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950F05602310E1A000B44470 /* HomeViewController.swift */; };
 		950F05652310E7E300B44470 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950F05642310E7E300B44470 /* LoginController.swift */; };
 		950F05672310E87B00B44470 /* MindfulWasteUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950F05662310E87B00B44470 /* MindfulWasteUser.swift */; };
+		952BAF0E2318B8770088B0A1 /* fira-sans-compressed in Resources */ = {isa = PBXBuildFile; fileRef = 952BAF0D2318B8770088B0A1 /* fira-sans-compressed */; };
 		955310592315A66D006E9B3D /* ViewReportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955310582315A66D006E9B3D /* ViewReportsViewController.swift */; };
 		95921C6B2155F88900978330 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95921C6A2155F88900978330 /* AppDelegate.swift */; };
 		95921C722155F88B00978330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95921C712155F88B00978330 /* Assets.xcassets */; };
@@ -65,6 +66,7 @@
 		950F05602310E1A000B44470 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		950F05642310E7E300B44470 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		950F05662310E87B00B44470 /* MindfulWasteUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindfulWasteUser.swift; sourceTree = "<group>"; };
+		952BAF0D2318B8770088B0A1 /* fira-sans-compressed */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "fira-sans-compressed"; sourceTree = "<group>"; };
 		955310582315A66D006E9B3D /* ViewReportsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewReportsViewController.swift; sourceTree = "<group>"; };
 		95921C672155F88900978330 /* MindfulWasteOfficial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindfulWasteOfficial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95921C6A2155F88900978330 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -207,6 +209,7 @@
 		95921C692155F88900978330 /* MindfulWasteOfficial */ = {
 			isa = PBXGroup;
 			children = (
+				952BAF0D2318B8770088B0A1 /* fira-sans-compressed */,
 				95921C6A2155F88900978330 /* AppDelegate.swift */,
 				95921C712155F88B00978330 /* Assets.xcassets */,
 				95921C732155F88B00978330 /* LaunchScreen.storyboard */,
@@ -329,13 +332,16 @@
 				TargetAttributes = {
 					95921C662155F88900978330 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1030;
 					};
 					95921C7A2155F88B00978330 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1030;
 						TestTargetID = 95921C662155F88900978330;
 					};
 					95921C852155F88B00978330 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1030;
 						TestTargetID = 95921C662155F88900978330;
 					};
 				};
@@ -369,6 +375,7 @@
 				95F7162D2314A435006BBF84 /* NewReportCell.xib in Resources */,
 				950F055A2310D83D00B44470 /* Main.storyboard in Resources */,
 				95921C722155F88B00978330 /* Assets.xcassets in Resources */,
+				952BAF0E2318B8770088B0A1 /* fira-sans-compressed in Resources */,
 				950F054B230FCDC100B44470 /* Intro.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,14 +440,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MindfulWasteOfficial/Pods-MindfulWasteOfficial-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FoldingCell/FoldingCell.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FoldingCell.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
@@ -661,7 +666,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = adrewno1.MindfulWasteOfficial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -680,7 +685,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = adrewno1.MindfulWasteOfficial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -701,7 +706,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = adrewno1.MindfulWasteOfficialTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindfulWasteOfficial.app/MindfulWasteOfficial";
 			};
@@ -723,7 +728,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = adrewno1.MindfulWasteOfficialTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindfulWasteOfficial.app/MindfulWasteOfficial";
 			};
@@ -744,7 +749,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = adrewno1.MindfulWasteOfficialUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = MindfulWasteOfficial;
 			};
@@ -765,7 +770,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = adrewno1.MindfulWasteOfficialUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = MindfulWasteOfficial;
 			};

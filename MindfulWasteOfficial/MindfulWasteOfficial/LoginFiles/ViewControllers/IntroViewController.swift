@@ -11,15 +11,36 @@ import UIKit
 
 //MARK: - Class Properties
 class IntroViewController: MindfulWasteBaseViewController {
+    @IBOutlet var loginButtons: [UIButton]!
+    @IBOutlet weak var areYouLabel: UILabel!
+    @IBOutlet var accentViews: [UIView]!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //setupUI()
     }
     
     @IBAction func guestLoginButtonPressed(_ sender: Any) {
         loginAsGuest()
     }
     
+}
+
+//MARK: - UI
+extension IntroViewController {
+    func setupUI() {
+        areYouLabel.textColor = Constants.TEXT_COLOR
+        
+        for loginButton in loginButtons {
+            loginButton.setTitleColor(Constants.TEXT_COLOR, for: .normal)
+        }
+        
+        for accentView in accentViews {
+            accentView.backgroundColor = Constants.TEXT_COLOR
+        }
+    }
 }
 
 //MARK: - Actions

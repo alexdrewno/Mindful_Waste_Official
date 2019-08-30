@@ -10,18 +10,14 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="Hind-Bold.ttf">
-            <string>Hind-Bold</string>
-        </array>
-        <array key="Hind-Semibold.ttf">
-            <string>Hind-Semibold</string>
+        <array key="firasanscompressed-book.otf">
+            <string>FiraSansCompressed-Book</string>
         </array>
     </customFonts>
     <scenes>
         <!--Intro View Controller-->
         <scene sceneID="aDw-vQ-iKK">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="qB0-Ug-0fA" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="q9o-hq-Q7J" customClass="IntroViewController" customModule="MindfulWasteOfficial" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BLu-7m-9os">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -29,36 +25,36 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FDO-kF-PcG">
                                 <rect key="frame" x="0.0" y="141" width="414" height="1"/>
-                                <color key="backgroundColor" red="0.95294117647058818" green="0.50588235294117645" blue="0.50588235294117645" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="C02-IR-lxH"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qiM-AW-kSK">
                                 <rect key="frame" x="0.0" y="197.5" width="414" height="1"/>
-                                <color key="backgroundColor" red="0.95294117649999999" green="0.50588235290000005" blue="0.50588235290000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="bvE-x6-CaG"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nOD-tw-Oac">
                                 <rect key="frame" x="0.0" y="252.5" width="414" height="1"/>
-                                <color key="backgroundColor" red="0.95294117649999999" green="0.50588235290000005" blue="0.50588235290000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="Yyj-ez-ANg"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qLc-Za-4Ku">
                                 <rect key="frame" x="0.0" y="308.5" width="414" height="1"/>
-                                <color key="backgroundColor" red="0.95294117649999999" green="0.50588235290000005" blue="0.50588235290000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="lk4-wV-wHt"/>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Are you..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xJ1-AT-Emq">
                                 <rect key="frame" x="20" y="109" width="374" height="24"/>
-                                <fontDescription key="fontDescription" name="Hind-Bold" family="Hind" pointSize="20"/>
-                                <color key="textColor" red="0.95294117649999999" green="0.50588235290000005" blue="0.50588235290000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="FiraSansCompressed-Book" family="Fira Sans Compressed" pointSize="20"/>
+                                <color key="textColor" red="0.50196078431372548" green="0.50196078431372548" blue="0.50196078431372548" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yLT-TS-Lhr">
@@ -66,9 +62,9 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="Hyn-7Y-6k8"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Hind-Semibold" family="Hind" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="FiraSansCompressed-Book" family="Fira Sans Compressed" pointSize="17"/>
                                 <state key="normal" title="an Admin">
-                                    <color key="titleColor" red="0.95294117649999999" green="0.50588235290000005" blue="0.50588235290000005" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.96470588235294119" green="0.52941176470588236" blue="0.11764705882352941" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="P2g-u4-bot" kind="show" id="7Z2-eb-xf9"/>
@@ -79,9 +75,9 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="iad-PB-eSV"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Hind-Semibold" family="Hind" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="FiraSansCompressed-Book" family="Fira Sans Compressed" pointSize="17"/>
                                 <state key="normal" title="a Volunteer">
-                                    <color key="titleColor" red="0.95294117649999999" green="0.50588235290000005" blue="0.50588235290000005" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.99607843137254903" green="0.69411764705882351" blue="0.25490196078431371" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="Sc0-Qd-5mN" kind="show" id="X6o-J2-JDi"/>
@@ -92,16 +88,16 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="518-CH-0IX"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Hind-Semibold" family="Hind" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="FiraSansCompressed-Book" family="Fira Sans Compressed" pointSize="17"/>
                                 <state key="normal" title="a Guest">
-                                    <color key="titleColor" red="0.95294117649999999" green="0.50588235290000005" blue="0.50588235290000005" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.55294117647058827" green="0.77254901960784317" blue="0.25098039215686274" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="guestLoginButtonPressed:" destination="q9o-hq-Q7J" eventType="touchUpInside" id="PHU-j8-CuR"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.9882352941176471" green="0.8901960784313725" blue="0.54117647058823526" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="pVS-ry-NGb" firstAttribute="top" secondItem="qiM-AW-kSK" secondAttribute="bottom" id="19y-Rd-BTu"/>
                             <constraint firstItem="FDO-kF-PcG" firstAttribute="top" secondItem="xJ1-AT-Emq" secondAttribute="bottom" constant="8" id="2G6-4q-dhh"/>
@@ -131,7 +127,18 @@
                         <viewLayoutGuide key="safeArea" id="EQI-FQ-MUm"/>
                     </view>
                     <navigationItem key="navigationItem" id="Qrk-sF-Wtq"/>
+                    <connections>
+                        <outlet property="areYouLabel" destination="xJ1-AT-Emq" id="rB0-1a-aRa"/>
+                        <outletCollection property="loginButtons" destination="yLT-TS-Lhr" collectionClass="NSMutableArray" id="8eA-W3-301"/>
+                        <outletCollection property="loginButtons" destination="pVS-ry-NGb" collectionClass="NSMutableArray" id="wVm-2l-onB"/>
+                        <outletCollection property="loginButtons" destination="AGk-jH-62G" collectionClass="NSMutableArray" id="psh-Lf-Eve"/>
+                        <outletCollection property="accentViews" destination="FDO-kF-PcG" collectionClass="NSMutableArray" id="bhU-1R-X6u"/>
+                        <outletCollection property="accentViews" destination="qiM-AW-kSK" collectionClass="NSMutableArray" id="BaL-wN-bCR"/>
+                        <outletCollection property="accentViews" destination="nOD-tw-Oac" collectionClass="NSMutableArray" id="WtJ-mq-pF2"/>
+                        <outletCollection property="accentViews" destination="qLc-Za-4Ku" collectionClass="NSMutableArray" id="WFI-3E-erc"/>
+                    </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qB0-Ug-0fA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="244.92753623188409" y="73.660714285714278"/>
         </scene>
@@ -142,7 +149,7 @@
                     <view key="view" contentMode="scaleToFill" id="sjw-pA-jgS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.98823529409999999" green="0.89019607840000003" blue="0.54117647059999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Imr-sW-pLg"/>
                     </view>
                 </viewController>
@@ -157,7 +164,7 @@
                     <view key="view" contentMode="scaleToFill" id="Bf1-Fx-m0a">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.98823529409999999" green="0.89019607840000003" blue="0.54117647059999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="fQi-GU-VCq"/>
                     </view>
                 </viewController>

@@ -11,7 +11,7 @@ import UIKit
 
 class Constants {
     
-    static var MAIN_COLOR = UIColor(red: 252/255, green: 227/255, blue: 138/255, alpha: 1)
-    static var OFF_COLOR = UIColor(red: 243/255, green: 129/255, blue: 129/255, alpha: 1)
+    static var BACKGROUND_COLOR = UIColor(red: 253/255, green: 250/255, blue: 245/255, alpha: 1)
+    static var TEXT_COLOR = UIColor(red: 60/255, green: 179/255, blue: 113/255, alpha: 1)
     
 }

@@ -14,6 +14,6 @@ class MindfulWasteBaseViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.view.backgroundColor = Constants.MAIN_COLOR
+        self.view.backgroundColor = Constants.BACKGROUND_COLOR
     }
 }
