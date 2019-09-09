@@ -1,4 +1,6 @@
 PODS:
+  - FanMenu (0.7.3):
+    - Macaw
   - Firebase/Core (6.7.0):
     - Firebase/CoreOnly
     - FirebaseAnalytics (= 6.1.1)
@@ -62,18 +64,23 @@ PODS:
   - GoogleUtilities/UserDefaults (6.2.5):
     - GoogleUtilities/Logger
   - leveldb-library (1.22)
+  - Macaw (0.9.5):
+    - SWXMLHash
   - nanopb (0.3.901):
     - nanopb/decode (= 0.3.901)
     - nanopb/encode (= 0.3.901)
   - nanopb/decode (0.3.901)
   - nanopb/encode (0.3.901)
+  - SWXMLHash (4.9.0)
 
 DEPENDENCIES:
+  - FanMenu
   - Firebase/Core
   - FirebaseDatabase
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - FanMenu
     - Firebase
     - FirebaseAnalytics
     - FirebaseAuthInterop
@@ -87,9 +94,12 @@ SPEC REPOS:
     - GoogleDataTransportCCTSupport
     - GoogleUtilities
     - leveldb-library
+    - Macaw
     - nanopb
+    - SWXMLHash
 
 SPEC CHECKSUMS:
+  FanMenu: 44d06d35b0382daf6b6aaf78b57a7b9693fbb6e7
   Firebase: 291d7b0a7b393f252358083b5d224884126fa46d
   FirebaseAnalytics: 843c7f64a8f9c79f0d03281197ebe7bb1d58d477
   FirebaseAuthInterop: 0ffa57668be100582bb7643d4fcb7615496c41fc
@@ -103,8 +113,10 @@ SPEC CHECKSUMS:
   GoogleDataTransportCCTSupport: 6b545f7149111180763dc18c6f372c963de4a310
   GoogleUtilities: e7dc37039b19df7fe543479d3e4a02ac8d11bb69
   leveldb-library: 55d93ee664b4007aac644a782d11da33fba316f7
+  Macaw: 10bf9e327cb75f24e3225d5229a80ed544df85f0
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  SWXMLHash: 87b0006848a548b7f9485b40bc71721b3ae39add
 
-PODFILE CHECKSUM: c400ae7b3adf881bf16cd32f1ee9e34237c4242e
+PODFILE CHECKSUM: 0bee4ec2453a382026681604616ae22f2ec14dec
 
 COCOAPODS: 1.5.3

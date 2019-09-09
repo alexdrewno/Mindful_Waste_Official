@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 //MARK: - Class Properties
-class IntroViewController: MindfulWasteBaseViewController {
+class IntroViewController: UIViewController {
     @IBOutlet var loginButtons: [UIButton]!
     @IBOutlet weak var areYouLabel: UILabel!
     @IBOutlet var accentViews: [UIView]!

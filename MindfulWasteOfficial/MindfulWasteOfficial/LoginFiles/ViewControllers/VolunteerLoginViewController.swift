@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class VolunteerLoginViewController: MindfulWasteBaseViewController {
+class VolunteerLoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()

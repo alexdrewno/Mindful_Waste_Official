@@ -8,6 +8,7 @@ target 'MindfulWasteOfficial' do
   # Pods for MindfulWasteOfficial
 	pod 'Firebase/Core'
 	pod 'FirebaseDatabase'
+	pod 'FanMenu'
   target 'MindfulWasteOfficialTests' do
     inherit! :search_paths
     # Pods for testing
