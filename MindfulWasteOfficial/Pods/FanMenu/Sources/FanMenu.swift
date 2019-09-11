@@ -286,10 +286,10 @@ class FanMenuScene {
             )
 
             if !button.title.isEmpty {
-
                 let place: Transform
 
                 let text = Text(text: button.title)
+                text.font = Font(name: "Fira Sans Compressed", size: 14, weight: "normal")
 
                 switch button.titlePosition {
                 case .right:
@@ -304,7 +304,7 @@ class FanMenuScene {
                     )
                 case .bottom:
                     place = Transform.move(
-                        dx: -Double(uiImage.size.width) / 2,
+                        dx: -Double(uiImage.size.width) / 2 - text.bounds.w,
                         dy: Double(uiImage.size.height) + fanMenu.buttonsTitleIndent
                     )
                 case .top:

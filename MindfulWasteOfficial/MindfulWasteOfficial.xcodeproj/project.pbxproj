@@ -25,7 +25,6 @@
 		95921C752155F88B00978330 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95921C732155F88B00978330 /* LaunchScreen.storyboard */; };
 		95921C802155F88B00978330 /* MindfulWasteOfficialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95921C7F2155F88B00978330 /* MindfulWasteOfficialTests.swift */; };
 		95921C8B2155F88B00978330 /* MindfulWasteOfficialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95921C8A2155F88B00978330 /* MindfulWasteOfficialUITests.swift */; };
-		95F7162723148216006BBF84 /* NewReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F7162623148216006BBF84 /* NewReportViewController.swift */; };
 		95F7162A2314A3E9006BBF84 /* NewReportCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F716292314A3E9006BBF84 /* NewReportCell.swift */; };
 		95F7162D2314A435006BBF84 /* NewReportCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95F7162C2314A435006BBF84 /* NewReportCell.xib */; };
 		9B0FFE8032E831746D2B6D1C /* Pods_MindfulWasteOfficialUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4831B2E647B692B56B318D7 /* Pods_MindfulWasteOfficialUITests.framework */; };
@@ -79,7 +78,6 @@
 		95921C862155F88B00978330 /* MindfulWasteOfficialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindfulWasteOfficialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95921C8A2155F88B00978330 /* MindfulWasteOfficialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindfulWasteOfficialUITests.swift; sourceTree = "<group>"; };
 		95921C8C2155F88B00978330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		95F7162623148216006BBF84 /* NewReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReportViewController.swift; sourceTree = "<group>"; };
 		95F716292314A3E9006BBF84 /* NewReportCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReportCell.swift; sourceTree = "<group>"; };
 		95F7162C2314A435006BBF84 /* NewReportCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewReportCell.xib; sourceTree = "<group>"; };
 		C4831B2E647B692B56B318D7 /* Pods_MindfulWasteOfficialUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MindfulWasteOfficialUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -245,7 +243,6 @@
 			isa = PBXGroup;
 			children = (
 				950F05602310E1A000B44470 /* HomeViewController.swift */,
-				95F7162623148216006BBF84 /* NewReportViewController.swift */,
 				955310582315A66D006E9B3D /* ViewReportsViewController.swift */,
 			);
 			path = ViewControllers;
@@ -443,6 +440,7 @@
 				"${BUILT_PRODUCTS_DIR}/FanMenu/FanMenu.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/Macaw/Macaw.framework",
+				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
 				"${BUILT_PRODUCTS_DIR}/SWXMLHash/SWXMLHash.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
@@ -452,6 +450,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FanMenu.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Macaw.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWXMLHash.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
@@ -492,7 +491,6 @@
 				955310592315A66D006E9B3D /* ViewReportsViewController.swift in Sources */,
 				950F05552310D58400B44470 /* IntroViewController.swift in Sources */,
 				950F05672310E87B00B44470 /* MindfulWasteUser.swift in Sources */,
-				95F7162723148216006BBF84 /* NewReportViewController.swift in Sources */,
 				95921C6B2155F88900978330 /* AppDelegate.swift in Sources */,
 				95F7162A2314A3E9006BBF84 /* NewReportCell.swift in Sources */,
 				950F05652310E7E300B44470 /* LoginController.swift in Sources */,

@@ -15,7 +15,7 @@ class MindfulWasteBaseViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupFanMenuButton()
+        setupUI()
         
         self.view.backgroundColor = Constants.BACKGROUND_COLOR
     }
@@ -24,7 +24,7 @@ class MindfulWasteBaseViewController: UIViewController {
 //MARK: - UI Setup
 extension MindfulWasteBaseViewController {
     func setupUI() {
-        
+        setupFanMenuButton()
     }
     
     func setupFanMenuButton() {
@@ -41,11 +41,7 @@ extension MindfulWasteBaseViewController {
         
         fanMenuButton = FanMenu.init(frame: fanMenuFrame)
         
-        fanMenuButton.button = FanMenuButton(
-            id: "menu",
-            image: UIImage(named: "Menu"),
-            color: .init(val: 0xF6871E)
-        )
+        setMenuButtonColor(hexColor: Constants.ORANGE_COLOR)
         
         fanMenuButton.backgroundColor = UIColor.clear
         fanMenuButton.menuBackground = .clear
@@ -61,19 +57,53 @@ extension MindfulWasteBaseViewController {
             FanMenuButton(
                 id: "report",
                 image: "Report",
-                color: .init(val: 0xF6871E)
+                color: .init(val: Constants.ORANGE_COLOR)
             ),
             FanMenuButton(
                 id: "plus",
                 image: "Plus",
-                color: .init(val: 0xFEB141)
+                color: .init(val: Constants.YELLOW_ORANGE_COLOR)
             ),
             FanMenuButton(
                 id: "settings",
                 image: "Settings",
-                color: .init(val: 0x8DC540)
+                color: .init(val: Constants.GREEN_COLOR)
             )
         ]
+        
+        setupFanMenuDetailButtonActions()
     }
     
+    func setMenuButtonColor(hexColor: Int) {
+        fanMenuButton.button = FanMenuButton(
+            id: "menu",
+            image: UIImage(named: "Menu"),
+            color: .init(val: hexColor)
+        )
+    }
+}
+
+//MARK: - Actions
+extension MindfulWasteBaseViewController {
+    
+    func setupFanMenuDetailButtonActions() {
+        fanMenuButton.onItemDidClick = { button in
+            self.handleMenuButtonPress(id: button.id)
+        }
+    }
+    
+    func handleMenuButtonPress(id: String) {
+        switch id {
+        case "menu":
+            print("Menu button pressed")
+        case "report":
+            setMenuButtonColor(hexColor: Constants.ORANGE_COLOR)
+        case "plus":
+            setMenuButtonColor(hexColor: Constants.YELLOW_ORANGE_COLOR)
+        case "settings":
+            setMenuButtonColor(hexColor: Constants.GREEN_COLOR)
+        default:
+            print("Something weird happened in menu button press...")
+        }
+    }
 }

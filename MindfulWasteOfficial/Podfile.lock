@@ -71,12 +71,14 @@ PODS:
     - nanopb/encode (= 0.3.901)
   - nanopb/decode (0.3.901)
   - nanopb/encode (0.3.901)
+  - SCLAlertView (0.8)
   - SWXMLHash (4.9.0)
 
 DEPENDENCIES:
   - FanMenu
   - Firebase/Core
   - FirebaseDatabase
+  - SCLAlertView
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -96,6 +98,7 @@ SPEC REPOS:
     - leveldb-library
     - Macaw
     - nanopb
+    - SCLAlertView
     - SWXMLHash
 
 SPEC CHECKSUMS:
@@ -115,8 +118,9 @@ SPEC CHECKSUMS:
   leveldb-library: 55d93ee664b4007aac644a782d11da33fba316f7
   Macaw: 10bf9e327cb75f24e3225d5229a80ed544df85f0
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
   SWXMLHash: 87b0006848a548b7f9485b40bc71721b3ae39add
 
-PODFILE CHECKSUM: 0bee4ec2453a382026681604616ae22f2ec14dec
+PODFILE CHECKSUM: 995a439bde9555414e3c761569abe24c4265fada
 
 COCOAPODS: 1.5.3
