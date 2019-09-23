@@ -11,11 +11,18 @@ import UIKit
 
 class Constants {
     
+    // Colors
     static var BACKGROUND_COLOR = UIColor(red: 253/255, green: 250/255, blue: 245/255, alpha: 1)
-    static var TEXT_COLOR = UIColor(red: 60/255, green: 179/255, blue: 113/255, alpha: 1)
-    static var FAN_MENU_SIZE: CGFloat = 250
     static var ORANGE_COLOR = 0xF6871E
     static var YELLOW_ORANGE_COLOR = 0xFEB141
     static var GREEN_COLOR = 0x8DC540
     
+    // Fonts
+    static var TEXT_COLOR = UIColor(red: 60/255, green: 179/255, blue: 113/255, alpha: 1)
+    static var FAN_MENU_SIZE: CGFloat = 250
+    
+    // Data
+    static var FOOD_CATEGORIES = ["Fruit", "Vegetables", "Dry Goods", "Dairy", "Misc."]
+    static var FOOD_COLORS: [UIColor] = []
 }
+

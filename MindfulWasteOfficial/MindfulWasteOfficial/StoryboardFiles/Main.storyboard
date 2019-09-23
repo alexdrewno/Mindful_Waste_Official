@@ -25,5 +25,27 @@
             </objects>
             <point key="canvasLocation" x="-480" y="-524"/>
         </scene>
+        <!--Mindful Waste Base View Controller-->
+        <scene sceneID="HYO-c1-Ss3">
+            <objects>
+                <viewController id="Vlh-bl-ErQ" customClass="MindfulWasteBaseViewController" customModule="MindfulWasteOfficial" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uBP-qm-gBf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dqE-HF-2G1">
+                                <rect key="frame" x="35" y="102" width="344" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Sh8-96-QBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SnE-PG-z6H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="324.63768115942031" y="-524.33035714285711"/>
+        </scene>
     </scenes>
 </document>

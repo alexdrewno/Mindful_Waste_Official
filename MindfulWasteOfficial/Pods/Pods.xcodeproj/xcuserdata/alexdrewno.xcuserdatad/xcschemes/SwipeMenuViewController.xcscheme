@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ADF7721D8794F9C0EEB8714A2483F75E"
-               BlueprintName = "SCLAlertView"
+               BlueprintIdentifier = "F82BF7FE5CCB9F78A729E69C57E5289B"
+               BlueprintName = "SwipeMenuViewController"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "SCLAlertView.framework">
+               BuildableName = "SwipeMenuViewController.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

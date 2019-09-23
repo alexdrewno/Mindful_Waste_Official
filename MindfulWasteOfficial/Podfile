@@ -10,6 +10,7 @@ target 'MindfulWasteOfficial' do
 	pod 'FirebaseDatabase'
 	pod 'FanMenu'
   pod 'SCLAlertView'
+	pod 'SwipeMenuViewController'
 
 	target 'MindfulWasteOfficialTests' do
     inherit! :search_paths
