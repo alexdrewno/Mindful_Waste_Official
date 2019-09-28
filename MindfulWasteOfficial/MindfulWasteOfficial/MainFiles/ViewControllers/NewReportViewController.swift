@@ -14,9 +14,16 @@ import SwipeMenuViewController
 class NewReportViewController: MindfulWasteBaseViewController {
     
     var swipeMenuView: SwipeMenuView!
+    @IBOutlet weak var containerView: UIView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         setupMenuViewUI()
     }
 }
@@ -24,20 +31,21 @@ class NewReportViewController: MindfulWasteBaseViewController {
 // MARK: - UI Setup
 extension NewReportViewController {
     func setupMenuViewUI() {
+
         swipeMenuView = SwipeMenuView(frame: CGRect(x: 0,
-                                                    y: view.frame.height/5,
+                                                    y: containerView.frame.maxY,
                                                     width: view.frame.width,
                                                     height: 100))
         
         var options = SwipeMenuViewOptions()
         options.tabView.style = .segmented
         options.tabView.itemView.font = options.tabView.itemView.font.withSize(12)
+        //options.tabView.itemView.textColors = Constants.FOOD_COLORS
         
         
         swipeMenuView.reloadData(options: options, isOrientationChange: false)
         
-        swipeMenuView.center = CGPoint(x: view.center.x, y: view.frame.height/8)
-    
+        //swipeMenuView.center = CGPoint(x: view.center.x, y: view.frame.height/8)
         
         swipeMenuView.dataSource = self
         swipeMenuView.delegate = self

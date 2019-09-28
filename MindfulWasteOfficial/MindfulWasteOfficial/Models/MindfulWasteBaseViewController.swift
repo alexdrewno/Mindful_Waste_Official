@@ -47,7 +47,7 @@ extension MindfulWasteBaseViewController {
             subTitle: "Create a new report.",
             closeButtonTitle: "Cancel",
             timeout: nil,
-            colorStyle: UInt(Constants.YELLOW_ORANGE_COLOR),
+            colorStyle: UInt(Constants.YELLOW_ORANGE_COLOR_HEX),
             colorTextButton: 0xFFFFFF,
             circleIconImage: UIImage(named: "Plus"),
             animationStyle: .bottomToTop
@@ -55,7 +55,7 @@ extension MindfulWasteBaseViewController {
         
         let date = Date()
         let format = DateFormatter()
-        format.dateFormat = "dd/MM/yyyy"
+        format.dateFormat = "MM/dd/yyyy"
         let formattedDate = format.string(from: date)
         
         let reportNameTextField = alertView.addTextField("Report Name")
@@ -88,13 +88,13 @@ extension MindfulWasteBaseViewController {
     func setCurrentStateButtonColor() {
         switch state {
         case .DetailReport:
-            setMenuButtonColor(hexColor: Constants.ORANGE_COLOR)
+            setMenuButtonColor(hexColor: Constants.ORANGE_COLOR_HEX)
         case .AddReport:
-            setMenuButtonColor(hexColor: Constants.YELLOW_ORANGE_COLOR)
+            setMenuButtonColor(hexColor: Constants.YELLOW_ORANGE_COLOR_HEX)
         case .Settings:
-            setMenuButtonColor(hexColor: Constants.GREEN_COLOR)
+            setMenuButtonColor(hexColor: Constants.GREEN_COLOR_HEX)
         default:
-            setMenuButtonColor(hexColor: Constants.ORANGE_COLOR)
+            setMenuButtonColor(hexColor: Constants.ORANGE_COLOR_HEX)
         }
     }
     
@@ -105,17 +105,17 @@ extension MindfulWasteBaseViewController {
             FanMenuButton(
                 id: "report",
                 image: "Report",
-                color: .init(val: Constants.ORANGE_COLOR)
+                color: .init(val: Constants.ORANGE_COLOR_HEX)
             ),
             FanMenuButton(
                 id: "plus",
                 image: "Plus",
-                color: .init(val: Constants.YELLOW_ORANGE_COLOR)
+                color: .init(val: Constants.YELLOW_ORANGE_COLOR_HEX)
             ),
             FanMenuButton(
                 id: "settings",
                 image: "Settings",
-                color: .init(val: Constants.GREEN_COLOR)
+                color: .init(val: Constants.GREEN_COLOR_HEX)
             )
         ]
         
@@ -145,19 +145,19 @@ extension MindfulWasteBaseViewController {
         case "menu":
             print("Menu button pressed")
         case "report":
-            setMenuButtonColor(hexColor: Constants.ORANGE_COLOR)
+            setMenuButtonColor(hexColor: Constants.ORANGE_COLOR_HEX)
         case "plus":
-            setMenuButtonColor(hexColor: Constants.YELLOW_ORANGE_COLOR)
+            setMenuButtonColor(hexColor: Constants.YELLOW_ORANGE_COLOR_HEX)
             showNewReportView()
         case "settings":
-            setMenuButtonColor(hexColor: Constants.GREEN_COLOR)
+            setMenuButtonColor(hexColor: Constants.GREEN_COLOR_HEX)
         default:
             print("Something weird happened in menu button press...")
         }
     }
     
     func showNewReportVC() {
-        let reportVC = NewReportViewController()
+        let reportVC = self.storyboard?.instantiateViewController(withIdentifier: "addReportVC") as! NewReportViewController
         reportVC.state = .AddReport
         reportVC.modalTransitionStyle = .crossDissolve
         self.present(reportVC, animated: true)

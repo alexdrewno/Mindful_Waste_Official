@@ -9,6 +9,14 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="FiraSansCompressed-Medium.otf">
+            <string>FiraSansCompressed-Medium</string>
+        </array>
+        <array key="firasanscompressed-ultralight.otf">
+            <string>FiraSansCompressed-UltraLight</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Home View Controller-->
         <scene sceneID="Fa2-PL-uye">
@@ -25,23 +33,78 @@
             </objects>
             <point key="canvasLocation" x="-480" y="-524"/>
         </scene>
-        <!--Mindful Waste Base View Controller-->
+        <!--New Report View Controller-->
         <scene sceneID="HYO-c1-Ss3">
             <objects>
-                <viewController id="Vlh-bl-ErQ" customClass="MindfulWasteBaseViewController" customModule="MindfulWasteOfficial" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="addReportVC" id="Vlh-bl-ErQ" customClass="NewReportViewController" customModule="MindfulWasteOfficial" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uBP-qm-gBf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dqE-HF-2G1">
-                                <rect key="frame" x="35" y="102" width="344" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="noL-6C-4Si">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="154"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Report Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kh8-Y4-m4v">
+                                        <rect key="frame" x="8" y="46" width="398" height="43.5"/>
+                                        <fontDescription key="fontDescription" name="FiraSansCompressed-Medium" family="Fira Sans Compressed" pointSize="31"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0000.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i8o-g9-OLY">
+                                        <rect key="frame" x="54" y="97" width="76" height="31.5"/>
+                                        <fontDescription key="fontDescription" name="FiraSansCompressed-UltraLight" family="Fira Sans Compressed" pointSize="26"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0000.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hmj-aV-MbZ">
+                                        <rect key="frame" x="284" y="97" width="76" height="31.5"/>
+                                        <fontDescription key="fontDescription" name="FiraSansCompressed-UltraLight" family="Fira Sans Compressed" pointSize="26"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="lbs" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nqu-a5-8VZ">
+                                        <rect key="frame" x="83" y="124" width="19.5" height="22"/>
+                                        <fontDescription key="fontDescription" name="FiraSansCompressed-UltraLight" family="Fira Sans Compressed" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oL0-Dd-cbZ">
+                                        <rect key="frame" x="296" y="124" width="53" height="22"/>
+                                        <fontDescription key="fontDescription" name="FiraSansCompressed-UltraLight" family="Fira Sans Compressed" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.99607843139999996" green="0.69411764710000001" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="oL0-Dd-cbZ" firstAttribute="top" secondItem="kh8-Y4-m4v" secondAttribute="bottom" constant="34.5" id="9vN-x1-Rf4"/>
+                                    <constraint firstAttribute="trailing" secondItem="kh8-Y4-m4v" secondAttribute="trailing" constant="8" id="BXq-aJ-ybt"/>
+                                    <constraint firstAttribute="bottom" secondItem="Nqu-a5-8VZ" secondAttribute="bottom" constant="8" id="Fl6-Lm-on7"/>
+                                    <constraint firstAttribute="trailing" secondItem="oL0-Dd-cbZ" secondAttribute="trailing" constant="65" id="I2y-WD-fIf"/>
+                                    <constraint firstItem="Nqu-a5-8VZ" firstAttribute="leading" secondItem="noL-6C-4Si" secondAttribute="leading" constant="83" id="KiI-ha-MI4"/>
+                                    <constraint firstAttribute="bottom" secondItem="oL0-Dd-cbZ" secondAttribute="bottom" constant="8" id="Mql-V7-eVB"/>
+                                    <constraint firstItem="i8o-g9-OLY" firstAttribute="top" secondItem="kh8-Y4-m4v" secondAttribute="bottom" constant="7.5" id="TLq-SN-Uwq"/>
+                                    <constraint firstAttribute="height" constant="154" id="TqS-Pe-USA"/>
+                                    <constraint firstItem="kh8-Y4-m4v" firstAttribute="top" secondItem="noL-6C-4Si" secondAttribute="top" constant="46" id="VVb-Ex-Vd2"/>
+                                    <constraint firstItem="Nqu-a5-8VZ" firstAttribute="top" secondItem="kh8-Y4-m4v" secondAttribute="bottom" constant="34.5" id="i0W-rK-osy"/>
+                                    <constraint firstAttribute="trailing" secondItem="hmj-aV-MbZ" secondAttribute="trailing" constant="54" id="m5v-VE-cBe"/>
+                                    <constraint firstItem="i8o-g9-OLY" firstAttribute="leading" secondItem="noL-6C-4Si" secondAttribute="leading" constant="54" id="rMy-G1-5dp"/>
+                                    <constraint firstItem="hmj-aV-MbZ" firstAttribute="top" secondItem="kh8-Y4-m4v" secondAttribute="bottom" constant="7.5" id="uvk-pj-fMg"/>
+                                    <constraint firstItem="kh8-Y4-m4v" firstAttribute="leading" secondItem="noL-6C-4Si" secondAttribute="leading" constant="8" id="yHV-yz-cR4"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="noL-6C-4Si" firstAttribute="top" secondItem="uBP-qm-gBf" secondAttribute="top" id="In7-lS-YEa"/>
+                            <constraint firstItem="noL-6C-4Si" firstAttribute="leading" secondItem="Sh8-96-QBY" secondAttribute="leading" id="Q4K-8f-RCb"/>
+                            <constraint firstItem="noL-6C-4Si" firstAttribute="trailing" secondItem="Sh8-96-QBY" secondAttribute="trailing" id="b63-d6-xSt"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Sh8-96-QBY"/>
                     </view>
+                    <connections>
+                        <outlet property="containerView" destination="noL-6C-4Si" id="GrQ-uy-P5H"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SnE-PG-z6H" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -18,13 +18,42 @@
 		950F05612310E1A000B44470 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950F05602310E1A000B44470 /* HomeViewController.swift */; };
 		950F05652310E7E300B44470 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950F05642310E7E300B44470 /* LoginController.swift */; };
 		950F05672310E87B00B44470 /* MindfulWasteUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950F05662310E87B00B44470 /* MindfulWasteUser.swift */; };
-		952BAF0E2318B8770088B0A1 /* fira-sans-compressed in Resources */ = {isa = PBXBuildFile; fileRef = 952BAF0D2318B8770088B0A1 /* fira-sans-compressed */; };
 		955310592315A66D006E9B3D /* ViewReportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955310582315A66D006E9B3D /* ViewReportsViewController.swift */; };
 		95921C6B2155F88900978330 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95921C6A2155F88900978330 /* AppDelegate.swift */; };
 		95921C722155F88B00978330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95921C712155F88B00978330 /* Assets.xcassets */; };
 		95921C752155F88B00978330 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95921C732155F88B00978330 /* LaunchScreen.storyboard */; };
 		95921C802155F88B00978330 /* MindfulWasteOfficialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95921C7F2155F88B00978330 /* MindfulWasteOfficialTests.swift */; };
 		95921C8B2155F88B00978330 /* MindfulWasteOfficialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95921C8A2155F88B00978330 /* MindfulWasteOfficialUITests.swift */; };
+		95A6C71C233FFDF400A1BF6B /* firasanscompressed-lightitalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95A6C6FE233FFDEF00A1BF6B /* firasanscompressed-lightitalic.otf */; };
+		95A6C71D233FFDF400A1BF6B /* FiraSansCompressed-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95A6C6FF233FFDF000A1BF6B /* FiraSansCompressed-ExtraBold.otf */; };
+		95A6C71E233FFDF400A1BF6B /* firasanscompressed-hairitalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95A6C700233FFDF000A1BF6B /* firasanscompressed-hairitalic.otf */; };
+		95A6C71F233FFDF400A1BF6B /* firasanscompressed-eightitalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95A6C701233FFDF000A1BF6B /* firasanscompressed-eightitalic.otf */; };
+		95A6C720233FFDF400A1BF6B /* firasanscompressed-fouritalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95A6C702233FFDF000A1BF6B /* firasanscompressed-fouritalic.otf */; };
+		95A6C721233FFDF400A1BF6B /* FiraSansCompressed-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95A6C703233FFDF000A1BF6B /* FiraSansCompressed-MediumItalic.otf */; };
+		95A6C722233FFDF400A1BF6B /* firasanscompressed-extralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95A6C704233FFDF100A1BF6B /* firasanscompressed-extralight.otf */; };
+		95A6C723233FFDF400A1BF6B /* firasanscompressed-two.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95A6C705233FFDF100A1BF6B /* firasanscompressed-two.otf */; };
+		95A6C724233FFDF400A1BF6B /* firasanscompressed-ultralightitalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95A6C706233FFDF100A1BF6B /* firasanscompressed-ultralightitalic.otf */; };
+		95A6C725233FFDF400A1BF6B /* firasanscompressed-eight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95A6C707233FFDF100A1BF6B /* firasanscompressed-eight.otf */; };
+		95A6C726233FFDF400A1BF6B /* FiraSansCompressed-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95A6C708233FFDF100A1BF6B /* FiraSansCompressed-HeavyItalic.otf */; };
+		95A6C727233FFDF400A1BF6B /* firasanscompressed-four.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95A6C709233FFDF100A1BF6B /* firasanscompressed-four.otf */; };
+		95A6C728233FFDF400A1BF6B /* FiraSansCompressed-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95A6C70A233FFDF100A1BF6B /* FiraSansCompressed-Medium.otf */; };
+		95A6C729233FFDF400A1BF6B /* FiraSansCompressed-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95A6C70B233FFDF100A1BF6B /* FiraSansCompressed-BoldItalic.otf */; };
+		95A6C72A233FFDF400A1BF6B /* firasanscompressed-book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95A6C70C233FFDF200A1BF6B /* firasanscompressed-book.otf */; };
+		95A6C72B233FFDF400A1BF6B /* firasanscompressed-light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95A6C70D233FFDF200A1BF6B /* firasanscompressed-light.otf */; };
+		95A6C72C233FFDF400A1BF6B /* firasanscompressed-regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95A6C70E233FFDF200A1BF6B /* firasanscompressed-regular.otf */; };
+		95A6C72D233FFDF400A1BF6B /* FiraSansCompressed-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95A6C70F233FFDF200A1BF6B /* FiraSansCompressed-Bold.otf */; };
+		95A6C72E233FFDF400A1BF6B /* firasanscompressed-extralightitalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95A6C710233FFDF200A1BF6B /* firasanscompressed-extralightitalic.otf */; };
+		95A6C72F233FFDF400A1BF6B /* FiraSansCompressed-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95A6C711233FFDF200A1BF6B /* FiraSansCompressed-SemiBold.otf */; };
+		95A6C730233FFDF400A1BF6B /* firasanscompressed-thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95A6C712233FFDF200A1BF6B /* firasanscompressed-thin.otf */; };
+		95A6C731233FFDF400A1BF6B /* firasanscompressed-bookitalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95A6C713233FFDF300A1BF6B /* firasanscompressed-bookitalic.otf */; };
+		95A6C732233FFDF400A1BF6B /* FiraSansCompressed-ExtraBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95A6C714233FFDF300A1BF6B /* FiraSansCompressed-ExtraBoldItalic.otf */; };
+		95A6C733233FFDF400A1BF6B /* firasanscompressed-thinitalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95A6C715233FFDF300A1BF6B /* firasanscompressed-thinitalic.otf */; };
+		95A6C734233FFDF400A1BF6B /* FiraSansCompressed-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95A6C716233FFDF300A1BF6B /* FiraSansCompressed-Heavy.otf */; };
+		95A6C735233FFDF400A1BF6B /* FiraSansCompressed-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95A6C717233FFDF300A1BF6B /* FiraSansCompressed-SemiBoldItalic.otf */; };
+		95A6C736233FFDF400A1BF6B /* firasanscompressed-twoitalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95A6C718233FFDF300A1BF6B /* firasanscompressed-twoitalic.otf */; };
+		95A6C737233FFDF400A1BF6B /* firasanscompressed-ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95A6C719233FFDF300A1BF6B /* firasanscompressed-ultralight.otf */; };
+		95A6C738233FFDF400A1BF6B /* firasanscompressed-hair.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95A6C71A233FFDF400A1BF6B /* firasanscompressed-hair.otf */; };
+		95A6C739233FFDF400A1BF6B /* firasanscompressed-italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95A6C71B233FFDF400A1BF6B /* firasanscompressed-italic.otf */; };
 		95F7162A2314A3E9006BBF84 /* NewReportCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F716292314A3E9006BBF84 /* NewReportCell.swift */; };
 		95F7162D2314A435006BBF84 /* NewReportCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95F7162C2314A435006BBF84 /* NewReportCell.xib */; };
 		95FEE4D523381BBB00C6EA69 /* NewReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FEE4D423381BBB00C6EA69 /* NewReportViewController.swift */; };
@@ -66,7 +95,6 @@
 		950F05602310E1A000B44470 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		950F05642310E7E300B44470 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		950F05662310E87B00B44470 /* MindfulWasteUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindfulWasteUser.swift; sourceTree = "<group>"; };
-		952BAF0D2318B8770088B0A1 /* fira-sans-compressed */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "fira-sans-compressed"; sourceTree = "<group>"; };
 		955310582315A66D006E9B3D /* ViewReportsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewReportsViewController.swift; sourceTree = "<group>"; };
 		95921C672155F88900978330 /* MindfulWasteOfficial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindfulWasteOfficial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95921C6A2155F88900978330 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +107,36 @@
 		95921C862155F88B00978330 /* MindfulWasteOfficialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindfulWasteOfficialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95921C8A2155F88B00978330 /* MindfulWasteOfficialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindfulWasteOfficialUITests.swift; sourceTree = "<group>"; };
 		95921C8C2155F88B00978330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95A6C6FE233FFDEF00A1BF6B /* firasanscompressed-lightitalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "firasanscompressed-lightitalic.otf"; sourceTree = "<group>"; };
+		95A6C6FF233FFDF000A1BF6B /* FiraSansCompressed-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSansCompressed-ExtraBold.otf"; sourceTree = "<group>"; };
+		95A6C700233FFDF000A1BF6B /* firasanscompressed-hairitalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "firasanscompressed-hairitalic.otf"; sourceTree = "<group>"; };
+		95A6C701233FFDF000A1BF6B /* firasanscompressed-eightitalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "firasanscompressed-eightitalic.otf"; sourceTree = "<group>"; };
+		95A6C702233FFDF000A1BF6B /* firasanscompressed-fouritalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "firasanscompressed-fouritalic.otf"; sourceTree = "<group>"; };
+		95A6C703233FFDF000A1BF6B /* FiraSansCompressed-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSansCompressed-MediumItalic.otf"; sourceTree = "<group>"; };
+		95A6C704233FFDF100A1BF6B /* firasanscompressed-extralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "firasanscompressed-extralight.otf"; sourceTree = "<group>"; };
+		95A6C705233FFDF100A1BF6B /* firasanscompressed-two.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "firasanscompressed-two.otf"; sourceTree = "<group>"; };
+		95A6C706233FFDF100A1BF6B /* firasanscompressed-ultralightitalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "firasanscompressed-ultralightitalic.otf"; sourceTree = "<group>"; };
+		95A6C707233FFDF100A1BF6B /* firasanscompressed-eight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "firasanscompressed-eight.otf"; sourceTree = "<group>"; };
+		95A6C708233FFDF100A1BF6B /* FiraSansCompressed-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSansCompressed-HeavyItalic.otf"; sourceTree = "<group>"; };
+		95A6C709233FFDF100A1BF6B /* firasanscompressed-four.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "firasanscompressed-four.otf"; sourceTree = "<group>"; };
+		95A6C70A233FFDF100A1BF6B /* FiraSansCompressed-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSansCompressed-Medium.otf"; sourceTree = "<group>"; };
+		95A6C70B233FFDF100A1BF6B /* FiraSansCompressed-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSansCompressed-BoldItalic.otf"; sourceTree = "<group>"; };
+		95A6C70C233FFDF200A1BF6B /* firasanscompressed-book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "firasanscompressed-book.otf"; sourceTree = "<group>"; };
+		95A6C70D233FFDF200A1BF6B /* firasanscompressed-light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "firasanscompressed-light.otf"; sourceTree = "<group>"; };
+		95A6C70E233FFDF200A1BF6B /* firasanscompressed-regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "firasanscompressed-regular.otf"; sourceTree = "<group>"; };
+		95A6C70F233FFDF200A1BF6B /* FiraSansCompressed-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSansCompressed-Bold.otf"; sourceTree = "<group>"; };
+		95A6C710233FFDF200A1BF6B /* firasanscompressed-extralightitalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "firasanscompressed-extralightitalic.otf"; sourceTree = "<group>"; };
+		95A6C711233FFDF200A1BF6B /* FiraSansCompressed-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSansCompressed-SemiBold.otf"; sourceTree = "<group>"; };
+		95A6C712233FFDF200A1BF6B /* firasanscompressed-thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "firasanscompressed-thin.otf"; sourceTree = "<group>"; };
+		95A6C713233FFDF300A1BF6B /* firasanscompressed-bookitalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "firasanscompressed-bookitalic.otf"; sourceTree = "<group>"; };
+		95A6C714233FFDF300A1BF6B /* FiraSansCompressed-ExtraBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSansCompressed-ExtraBoldItalic.otf"; sourceTree = "<group>"; };
+		95A6C715233FFDF300A1BF6B /* firasanscompressed-thinitalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "firasanscompressed-thinitalic.otf"; sourceTree = "<group>"; };
+		95A6C716233FFDF300A1BF6B /* FiraSansCompressed-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSansCompressed-Heavy.otf"; sourceTree = "<group>"; };
+		95A6C717233FFDF300A1BF6B /* FiraSansCompressed-SemiBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSansCompressed-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		95A6C718233FFDF300A1BF6B /* firasanscompressed-twoitalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "firasanscompressed-twoitalic.otf"; sourceTree = "<group>"; };
+		95A6C719233FFDF300A1BF6B /* firasanscompressed-ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "firasanscompressed-ultralight.otf"; sourceTree = "<group>"; };
+		95A6C71A233FFDF400A1BF6B /* firasanscompressed-hair.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "firasanscompressed-hair.otf"; sourceTree = "<group>"; };
+		95A6C71B233FFDF400A1BF6B /* firasanscompressed-italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "firasanscompressed-italic.otf"; sourceTree = "<group>"; };
 		95F716292314A3E9006BBF84 /* NewReportCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReportCell.swift; sourceTree = "<group>"; };
 		95F7162C2314A435006BBF84 /* NewReportCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewReportCell.xib; sourceTree = "<group>"; };
 		95FEE4D423381BBB00C6EA69 /* NewReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReportViewController.swift; sourceTree = "<group>"; };
@@ -187,6 +245,7 @@
 		95921C5E2155F88900978330 = {
 			isa = PBXGroup;
 			children = (
+				95A6C73A233FFE0300A1BF6B /* New Group */,
 				95921C692155F88900978330 /* MindfulWasteOfficial */,
 				95921C7E2155F88B00978330 /* MindfulWasteOfficialTests */,
 				95921C892155F88B00978330 /* MindfulWasteOfficialUITests */,
@@ -209,7 +268,6 @@
 		95921C692155F88900978330 /* MindfulWasteOfficial */ = {
 			isa = PBXGroup;
 			children = (
-				952BAF0D2318B8770088B0A1 /* fira-sans-compressed */,
 				95921C6A2155F88900978330 /* AppDelegate.swift */,
 				95921C712155F88B00978330 /* Assets.xcassets */,
 				95921C732155F88B00978330 /* LaunchScreen.storyboard */,
@@ -239,6 +297,43 @@
 				95921C8C2155F88B00978330 /* Info.plist */,
 			);
 			path = MindfulWasteOfficialUITests;
+			sourceTree = "<group>";
+		};
+		95A6C73A233FFE0300A1BF6B /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				95A6C70B233FFDF100A1BF6B /* FiraSansCompressed-BoldItalic.otf */,
+				95A6C713233FFDF300A1BF6B /* firasanscompressed-bookitalic.otf */,
+				95A6C707233FFDF100A1BF6B /* firasanscompressed-eight.otf */,
+				95A6C704233FFDF100A1BF6B /* firasanscompressed-extralight.otf */,
+				95A6C710233FFDF200A1BF6B /* firasanscompressed-extralightitalic.otf */,
+				95A6C709233FFDF100A1BF6B /* firasanscompressed-four.otf */,
+				95A6C702233FFDF000A1BF6B /* firasanscompressed-fouritalic.otf */,
+				95A6C6FE233FFDEF00A1BF6B /* firasanscompressed-lightitalic.otf */,
+				95A6C70E233FFDF200A1BF6B /* firasanscompressed-regular.otf */,
+				95A6C70D233FFDF200A1BF6B /* firasanscompressed-light.otf */,
+				95A6C703233FFDF000A1BF6B /* FiraSansCompressed-MediumItalic.otf */,
+				95A6C711233FFDF200A1BF6B /* FiraSansCompressed-SemiBold.otf */,
+				95A6C712233FFDF200A1BF6B /* firasanscompressed-thin.otf */,
+				95A6C70A233FFDF100A1BF6B /* FiraSansCompressed-Medium.otf */,
+				95A6C717233FFDF300A1BF6B /* FiraSansCompressed-SemiBoldItalic.otf */,
+				95A6C715233FFDF300A1BF6B /* firasanscompressed-thinitalic.otf */,
+				95A6C705233FFDF100A1BF6B /* firasanscompressed-two.otf */,
+				95A6C70F233FFDF200A1BF6B /* FiraSansCompressed-Bold.otf */,
+				95A6C70C233FFDF200A1BF6B /* firasanscompressed-book.otf */,
+				95A6C701233FFDF000A1BF6B /* firasanscompressed-eightitalic.otf */,
+				95A6C6FF233FFDF000A1BF6B /* FiraSansCompressed-ExtraBold.otf */,
+				95A6C714233FFDF300A1BF6B /* FiraSansCompressed-ExtraBoldItalic.otf */,
+				95A6C71A233FFDF400A1BF6B /* firasanscompressed-hair.otf */,
+				95A6C700233FFDF000A1BF6B /* firasanscompressed-hairitalic.otf */,
+				95A6C716233FFDF300A1BF6B /* FiraSansCompressed-Heavy.otf */,
+				95A6C708233FFDF100A1BF6B /* FiraSansCompressed-HeavyItalic.otf */,
+				95A6C71B233FFDF400A1BF6B /* firasanscompressed-italic.otf */,
+				95A6C718233FFDF300A1BF6B /* firasanscompressed-twoitalic.otf */,
+				95A6C719233FFDF300A1BF6B /* firasanscompressed-ultralight.otf */,
+				95A6C706233FFDF100A1BF6B /* firasanscompressed-ultralightitalic.otf */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		95F7162823148284006BBF84 /* ViewControllers */ = {
@@ -371,11 +466,40 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95A6C71C233FFDF400A1BF6B /* firasanscompressed-lightitalic.otf in Resources */,
+				95A6C71D233FFDF400A1BF6B /* FiraSansCompressed-ExtraBold.otf in Resources */,
+				95A6C71E233FFDF400A1BF6B /* firasanscompressed-hairitalic.otf in Resources */,
+				95A6C71F233FFDF400A1BF6B /* firasanscompressed-eightitalic.otf in Resources */,
+				95A6C720233FFDF400A1BF6B /* firasanscompressed-fouritalic.otf in Resources */,
+				95A6C721233FFDF400A1BF6B /* FiraSansCompressed-MediumItalic.otf in Resources */,
+				95A6C722233FFDF400A1BF6B /* firasanscompressed-extralight.otf in Resources */,
+				95A6C723233FFDF400A1BF6B /* firasanscompressed-two.otf in Resources */,
+				95A6C724233FFDF400A1BF6B /* firasanscompressed-ultralightitalic.otf in Resources */,
+				95A6C725233FFDF400A1BF6B /* firasanscompressed-eight.otf in Resources */,
+				95A6C726233FFDF400A1BF6B /* FiraSansCompressed-HeavyItalic.otf in Resources */,
+				95A6C727233FFDF400A1BF6B /* firasanscompressed-four.otf in Resources */,
+				95A6C728233FFDF400A1BF6B /* FiraSansCompressed-Medium.otf in Resources */,
+				95A6C729233FFDF400A1BF6B /* FiraSansCompressed-BoldItalic.otf in Resources */,
+				95A6C72A233FFDF400A1BF6B /* firasanscompressed-book.otf in Resources */,
+				95A6C72B233FFDF400A1BF6B /* firasanscompressed-light.otf in Resources */,
+				95A6C72C233FFDF400A1BF6B /* firasanscompressed-regular.otf in Resources */,
+				95A6C72D233FFDF400A1BF6B /* FiraSansCompressed-Bold.otf in Resources */,
+				95A6C72E233FFDF400A1BF6B /* firasanscompressed-extralightitalic.otf in Resources */,
+				95A6C72F233FFDF400A1BF6B /* FiraSansCompressed-SemiBold.otf in Resources */,
+				95A6C730233FFDF400A1BF6B /* firasanscompressed-thin.otf in Resources */,
+				95A6C731233FFDF400A1BF6B /* firasanscompressed-bookitalic.otf in Resources */,
+				95A6C732233FFDF400A1BF6B /* FiraSansCompressed-ExtraBoldItalic.otf in Resources */,
+				95A6C733233FFDF400A1BF6B /* firasanscompressed-thinitalic.otf in Resources */,
+				95A6C734233FFDF400A1BF6B /* FiraSansCompressed-Heavy.otf in Resources */,
+				95A6C735233FFDF400A1BF6B /* FiraSansCompressed-SemiBoldItalic.otf in Resources */,
+				95A6C736233FFDF400A1BF6B /* firasanscompressed-twoitalic.otf in Resources */,
+				95A6C737233FFDF400A1BF6B /* firasanscompressed-ultralight.otf in Resources */,
+				95A6C738233FFDF400A1BF6B /* firasanscompressed-hair.otf in Resources */,
+				95A6C739233FFDF400A1BF6B /* firasanscompressed-italic.otf in Resources */,
 				95921C752155F88B00978330 /* LaunchScreen.storyboard in Resources */,
 				95F7162D2314A435006BBF84 /* NewReportCell.xib in Resources */,
 				950F055A2310D83D00B44470 /* Main.storyboard in Resources */,
 				95921C722155F88B00978330 /* Assets.xcassets in Resources */,
-				952BAF0E2318B8770088B0A1 /* fira-sans-compressed in Resources */,
 				950F054B230FCDC100B44470 /* Intro.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
